@@ -55,8 +55,33 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void cymbal1 (View v) {
-    mSoundPool.play(msoundID[0],1.0F,1.0F,0,0,1.0F);
+    mSoundPool.play(msoundID[0], 1.0F, 1.0F, 0, 0, 1.0F);
     }
+    public void cymbal2 (View v) {
+        mSoundPool.play(msoundID[1],1.0F,1.0F,0,0,1.0F);
+    }
+    public void cymbal3 (View v) {
+        mSoundPool.play(msoundID[2],1.0F,1.0F,0,0,1.0F);
+    }
+    public void tom1 (View v) {
+        mSoundPool.play(msoundID[3],1.0F,1.0F,0,0,1.0F);
+    }
+    public void tom2 (View v) {
+        mSoundPool.play(msoundID[4],1.0F,1.0F,0,0,1.0F);
+    }
+    public void tom3 (View v) {
+        mSoundPool.play(msoundID[5],1.0F,1.0F,0,0,1.0F);
+    }
+    public void hihat (View v) {
+        mSoundPool.play(msoundID[6],1.0F,1.0F,0,0,1.0F);
+    }
+    public void snare (View v) {
+        mSoundPool.play(msoundID[7],1.0F,1.0F,0,0,1.0F);
+    }
+    public void bass (View v) {
+        mSoundPool.play(msoundID[8],1.0F,1.0F,0,0,1.0F);
+    }
+
 
 
 
