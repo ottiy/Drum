@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
         msoundID = new int[mSoundResource.length];
 //音をロードする
         for(int i =0; i < mSoundResource.length; i++){
-            msoundID[i] =mSoundPool.load(getApplicationContext(),mSoundResource[i], 0);
+            msoundID[i] = mSoundPool.load(getApplicationContext(),mSoundResource[i], 0);
         }
 
     }
@@ -55,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void cymbal1 (View v) {
-
+    mSoundPool.play(msoundID[0],1.0F,1.0F,0,0,1.0F);
     }
 
 
