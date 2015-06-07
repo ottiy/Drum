@@ -15,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
 
     private int[] msoundID;
 //mSoundRisouceに音を割り当て
+
     private int[] mSoundResource = {
             R.raw.cymbal1,
             R.raw.cymbal2,
